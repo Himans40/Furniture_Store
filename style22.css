@@ -1,4 +1,4 @@
-  /* ---------- RESET ---------- */
+/* ---------- RESET ---------- */
   * { box-sizing: border-box; margin: 0; padding: 0; font-family: Poppins, Pretendard Variable;}
   html,body { height: 100%; font-family: "Poppins", system-ui, sans-serif; }
 
@@ -140,7 +140,8 @@
     /* border: 2px solid red; */
     width: 95vw;
     justify-content: center;
-    padding-bottom: 25px;
+   padding-bottom: 25px;
+   
   }
  
   main{
