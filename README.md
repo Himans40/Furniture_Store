@@ -1,128 +1,100 @@
 # Furniture_Store
-🛋️ HPS Furniture Store – Modern Furniture Website
 
-A clean, elegant, and fully responsive furniture store website featuring product categories, interactive UI elements, smooth navigation, and beautifully designed pages for chairs, sofas, tables, bedroom furniture, lighting, and decorations. Built using HTML, CSS, and JavaScript with a focus on simplicity, usability, and modern design.
+🛋️ **HPS Furniture Store – Modern Furniture Website**
 
-📌 Features
+A clean, elegant, and fully responsive furniture store website featuring multiple product categories, interactive UI elements, smooth navigation, and beautifully designed pages for chairs, sofas, tables, bedroom furniture, lighting, and decorations.  
+Built using **HTML, CSS, and JavaScript** with a focus on simplicity, usability, and modern design.
 
-🪑 Beautiful Furniture Categories (Chairs, Sofas, Tables, Lighting, Decoration, Bedroom)
-🖼️ High-quality product cards
-📱 Fully responsive layout
-🧭 Sticky navigation bar with mobile menu
-🎨 Clean & modern UI design
-⚡ Interactive JS-based menu toggle
-✨ Smooth spacing, typography, and layout aesthetics
-💬 Dedicated product description sections
-💡 Reusable components & organized structure
+---
 
-📁 Project Structure
+## 📌 Features
+
+- 🪑 **Beautiful Furniture Categories** (Chairs, Sofas, Tables, Lighting, Decoration, Bedroom)  
+- 🖼️ **High-quality product cards**  
+- 📱 **Fully responsive layout**  
+- 📌 **Sticky navigation bar** with mobile menu  
+- ⚡ **Interactive JS-based menu toggle**  
+- ✨ Clean spacing, typography & modern UI  
+- 💬 Dedicated product description sections  
+- 💡 Reusable components & well-organized structure  
+
+---
+
+## 📁 Project Structure
 
 Furniture_Store/
 │
-├── index.html              # Homepage layout
-├── chairs.html             # Chairs section
-├── sofa.html               # Sofas section
-├── table.html              # Tables section
-├── Lighting.html           # Lighting section
-├── decoration.html         # Decoration section
-├── bedroom.html (optional) # Bedroom furniture page
+├── index.html # Homepage layout
+├── chairs.html # Chairs section
+├── sofa.html # Sofas section
+├── table.html # Tables section
+├── Lighting.html # Lighting section
+├── decoration.html # Decoration section
+├── bedroom.html # Bedroom furniture page (optional)
 │
-├── style.css               # Global styling & responsive design
-├── login.css               # Login page styling
+├── style.css # Global styling & responsive design
+├── login.css # Login page styling
 │
-├── index.js                # Navbar toggle & interactions
-├── login.js                # Login form validation
+├── index.js # Navbar toggle & other interactions
+├── login.js # Login form validation
 │
-├── assets/                 # Images & logo
-│   ├── logo.png
-│   ├── chairs/
-│   ├── sofa/
-│   ├── tables/
-│   ├── lighting/
-│   └── decoration/
+├── assets/ # Images & logo
+│ ├── logo.png
+│ ├── chairs/
+│ ├── sofa/
+│ ├── tables/
+│ ├── lighting/
+│ └── decoration/
 │
-└── README.md               # Project documentation
+└── README.md # Project documentation
 
-🛠️ Technologies Used
+---
 
-HTML5 – Structure & layout
+## 🛠️ Technologies Used
 
-CSS3 – Styling, responsiveness, UI components
+- **HTML5** – Structure & layout  
+- **CSS3** – Styling, responsiveness, UI components  
+- **JavaScript (ES6)** – Interactivity, navbar toggle  
+- **Google Fonts** – Modern typography  
 
-JavaScript (ES6) – Interactivity, menu toggle
+---
 
-Google Fonts – Modern typography
+## ▶️ How to Run the Project
 
-Responsive Design Techniques – Flexbox, media queries
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Parth-co79/Furniture_Store.git
+2.Open the project folder.
 
-▶️ How to Run the Project
+3.Double-click index.html to open in browser.
 
-Download or clone the repository:
+4.Enjoy exploring the store UI! 🛋️✨
 
-git clone https://github.com/Parth-co79/Furniture_Store.git
+🚀 Future Improvements
 
-Open the project folder:
+Add shopping cart system
 
-cd Furniture_Store
+Add search & filtering options
 
-Run the website by opening:
+Add admin panel for product management
 
-index.html
+Dark/light theme support
 
-🛏️ Pages Included
-
-✔ Homepage
-✔ Chairs Page
-✔ Sofas Page
-✔ Tables Page
-✔ Decoration Page
-✔ Lighting Page
-✔ Login Page
-✔ Bedroom Furniture Page (if added)
-
-🎯 Core Highlights
-
-Responsive navigation bar with slide-in mobile menu
-
-Attractive product display cards
-
-Clean content sections (About Chairs, About Sofas, About Decoration, etc.)
-
-Minimalistic and professional color theme
-
-Easy-to-maintain file structure
+Product animations & hover effects
 
 👥 Contributors
 Himanshu Parmarthi
 Parth Kadukar
 Sushant Gupta
-HPS Furniture Store – Owner / Developer
-
-🚀 Future Improvements
-
-Add shopping cart functionality
-
-Add backend + database
-
-Add user login authentication
-
-Add product search & filtering
-
-Add product detail pages
-
-Add animations for smoother interactions
 
 📄 License
 
-This project is open-source.
-Feel free to modify, improve, and use it for learning or development.
+This project is open-source. Feel free to modify or improve it.
 
 ❤️ Acknowledgements
 
 Google Fonts
 
-Font Awesome / Icons
+Icons & images from various open sources
 
-Free stock images for furniture display
-
-Inspiration from modern furniture brands
+Inspiration from modern furniture store layouts
