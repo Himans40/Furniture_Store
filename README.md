@@ -61,13 +61,14 @@ Furniture_Store/
    ```
    git clone https://github.com/Parth-co79/Furniture_Store.git
    ```
-   2.Open the project folder.
    
-   3.Double-click index.html to open in browser.
-    
-   4.Enjoy exploring the store UI! 🛋️✨
+  2.Open the project folder.
+   
+  3.Double-click index.html to open in browser.
 
-##🚀 Future Improvements
+  4.Enjoy exploring the store UI! 🛋️✨
+
+🚀 Future Improvements
 
 Add shopping cart system
 
@@ -79,18 +80,18 @@ Dark/light theme support
 
 Product animations & hover effects
 
-##👥 Contributors
+👥 Contributors
 ```
 Himanshu Parmarthi
 Parth Kadukar
 Sushant Gupta
 ```
 
-##📄 License
+📄 License
 
 This project is open-source. Feel free to modify or improve it.
 
-##❤️ Acknowledgements
+❤️ Acknowledgements
 
 Google Fonts
 
