@@ -400,3 +400,71 @@ header{
   from {opacity: .4}
   to {opacity: 1}
 }
+main{
+  /* border: 2px solid red; */
+  margin: 180px 50px;
+}
+main>div.cards{
+  /* border: 2px solid blue; */
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  overflow-x: auto;
+  gap: 30px;
+
+}
+main>div.cards>div.item{
+  /* border: 2px solid rgb(37, 232, 12); */
+  position: relative;
+  height: 650px;
+  width: 480px;
+  overflow: hidden;
+  flex-shrink: 0;
+
+}
+main > div.cards::-webkit-scrollbar {
+  display: none;
+}
+
+main>div.cards>div.item>img{
+  height: 650px;
+  width: auto;
+}
+main>div.hero{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px;
+}
+main>div.hero>h2{
+  font-size: 40px;
+  padding-left: 0px !important;
+  color: rgb(95, 92, 92);
+}
+main>div.hero>div>a{
+  /* height: 80px;
+  width: 80px; */
+  font-size: 1.2rem;
+  text-decoration: none;
+  padding: 20px;
+  background-color: rgb(65, 64, 64);
+  color: white;
+  border-radius: 5px;
+}
+main>div.cards>div.item>h2{
+  position: absolute;
+  left: 2px;
+  bottom: 30px;
+  font-size: 2rem;
+  color: #fff;
+}
+main>div.cards>div.item>a{
+  position: absolute;
+  right: 30px;
+  bottom: 43px;
+  text-decoration: none;
+  font-size: 1.2rem;
+  color: #fff;
+
+
+}
