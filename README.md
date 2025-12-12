@@ -40,11 +40,6 @@ Furniture_Store/
 │
 ├── assets/ # Images & logo
 │ ├── logo.png
-│ ├── chairs/
-│ ├── sofa/
-│ ├── tables/
-│ ├── lighting/
-│ └── decoration/
 │
 └── README.md # Project documentation
 ```
