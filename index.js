@@ -1,6 +1,6 @@
 
 const toggle = document.querySelector('.menu_btn'); 
-const bar = document.querySelector("ul");
+const bar = document.querySelector(".item");
 
 
 toggle.addEventListener('click', tooglemynav);
