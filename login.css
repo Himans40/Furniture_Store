@@ -4,12 +4,12 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Montserrat', sans-serif;
+    /* font-family: Poppins, Pretendard Variable; */
 }
 
 body{
-    background-color: #ede6e6;
-    background-color: transparent;
+    background-color: #e7d3b9;
+    /* background-color: transparent; */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -23,9 +23,11 @@ body{
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.35);
     position: relative;
     overflow: hidden;
-    width: 768px;
+    width: 40vw;
+    height: 55vh;
     max-width: 100%;
     min-height: 480px;
+    scale: 1.5;
 }
 
 .container p{
@@ -51,7 +53,7 @@ body{
     color: #141212;
     font-size: 12px;
     padding: 10px 45px;
-    border: 1px solid black;
+    border: none;
     border-radius: 8px;
     font-weight: 600;
     letter-spacing: 0.5px;
