@@ -61,11 +61,11 @@ Furniture_Store/
    ```
    git clone https://github.com/Parth-co79/Furniture_Store.git
    ```
-2.Open the project folder.
+ 2.Open the project folder.
 
-3.Double-click index.html to open in browser.
+ 3.Double-click index.html to open in browser.
 
-4.Enjoy exploring the store UI! 🛋️✨
+ 4.Enjoy exploring the store UI! 🛋️✨
 
 🚀 Future Improvements
 
