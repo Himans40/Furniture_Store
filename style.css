@@ -467,10 +467,10 @@ main>div.hero>div{
   }
   
   .slideshow-container .text h2{
-    font-size: 1rem;
+    font-size: 0.8rem;
   }
   .slideshow-container .text h1{
-    font-size: 1.76rem;
+    font-size: 1.5rem;
   }
   .navbar>img{
     scale:0.8;
@@ -479,10 +479,84 @@ main>div.hero>div{
     font-size: 1.5rem !important;
     right: 20px;
   }
-  /* .slideshow-container h1,h2{ */
-  /* padding-left: 20px !important; */
-  /* } */
-  
+  footer>div.Contact-us{
+  left: 4% !important;
+  }
+  footer>div.About-us{
+    display: none;
+  }
+  footer>div.Address-us{
+    left: 73% !important;
+  }
+  footer{
+    height: 12rem !important;
+  }
+  footer>div{
+    height: 10rem; 
+    padding-left: 0px !important;
+    font-size: 9px !important;
+  }
+  main>div.cards{
+  /* border: 2px solid blue; */
+  /* width: 50% !important; */
+  display: grid !important;
+  grid-template-columns: 1fr;
+  /* overflow-x: auto; */
+  gap: 30px;
+  /* border: 1px solid red; */
+
+  }
+  main>div.cards>div.item{
+  /* border: 2px solid rgb(37, 232, 12); */
+  position: relative;
+  max-height: 450px !important;
+  max-width: 400px !important;
+  overflow: hidden;
+  line-height: 1 !important;
+  /* flex-grow: 1; */
+
+}
+main{
+  /* border: 2px solid red; */
+  margin: 0px 0px !important;
+}
+main>div.hero{
+  /* font-size: 1.5rem; */
+  border: 1px solid rgb(164, 161, 161);
+  padding: 4px 5px !important;
+  margin-bottom: 30px !important;
+  background-color: gray;
+
+
+}
+main>div.hero>h2{
+  padding-left: 0px !important;
+  color: white !important;
+  font-size: 1.5rem !important;
+
+}
+main>div.cards>div.item>h2{
+  position: absolute;
+  top: 5px;
+  font-size: 1.7rem !important;
+  /* color: #fff; */
+}
+main>div.cards>div.item>a{
+  background-color: rgb(63, 62, 62);
+  position: absolute;
+  top: 5px !important;
+  bottom: auto !important;
+  right: 30px;
+  text-decoration: none;
+  font-size: 1.2rem;
+  color: #fff;
+
+
+}
+main>div.cards>div.item>img{
+  height: 100% !important;
+  width: 100% !important;
+}
   
 
 } 
@@ -551,6 +625,7 @@ main>div.cards{
   justify-content: flex-start;
   overflow-x: auto;
   gap: 30px;
+  /* border: 1px solid red; */
 
 }
 main>div.cards>div.item{
@@ -642,6 +717,7 @@ footer>div{
   height: 10rem;
   width: auto;
   padding: 10px;
-  scale: 1.2;
+  font-size: 22px;
   line-height: 1.8;
+  /* border: 2px solid red; */
 }
