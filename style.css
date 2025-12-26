@@ -213,6 +213,12 @@ section#product-navbar.active{
   .navbar>img{
     scale:1.35;
   }
+    section#product-navbar{
+  width: 36vw !important;
+  
+
+}
+
 }
 @media (min-width:865px) and (max-width:949px){
   main{
@@ -241,6 +247,20 @@ section#product-navbar.active{
   .navbar>img{
     scale:1.2;
   }
+    section#product-navbar{
+  width: 40vw !important;
+  
+
+}
+section#product-navbar>div.hed{
+  scale: 0.9 !important;
+}
+section#product-navbar>div#hed1{
+  scale: 0.9 !important;
+}
+ section#product-navbar>ul>a{
+  font-size: 1.2rem;
+}
 
 }
 @media (max-width:865px){
@@ -276,6 +296,25 @@ section#product-navbar.active{
 
   
  }
+  section#product-navbar{
+  width: 35vw !important;
+  
+
+}
+section#product-navbar>div.hed{
+  scale: 0.9 !important;
+ 
+
+ 
+
+  
+}
+section#product-navbar>div#hed1{
+  scale: 0.9 !important;
+}
+ section#product-navbar>ul>a{
+  font-size: 1.2rem;
+}
  .navbar ul i{
   display: block;
   color: black;
@@ -384,6 +423,25 @@ main>div.hero>div{
   .navbar>img{
     scale:1.15;
   }
+  section#product-navbar{
+  width: 36vw !important;
+  
+
+}
+section#product-navbar>div.hed{
+  scale: 0.85 !important;
+ 
+
+ 
+
+  
+}
+section#product-navbar>div#hed1{
+  scale: 0.8 !important;
+}
+ section#product-navbar>ul>a{
+  font-size: 1rem;
+}
 
 }
 @media  (max-width:620px) {
@@ -420,6 +478,28 @@ main>div.hero>div{
     font-size: 1.7rem;
     right: 30px;
   }
+  section#product-navbar{
+  width: 36vw !important;
+  
+
+}
+section#product-navbar>div.hed{
+  scale: 0.8 !important;
+  top: 140px;
+ 
+}
+section#product-navbar>div#hed1{
+  scale: 0.7 !important;
+  left: 15px;
+}
+ section#product-navbar>ul>a{
+  font-size: 0.9rem;
+  
+}
+section#product-navbar>ul{
+  position: absolute;
+  top: 195px;
+}
 
 }
  @media  (max-width:520px) {
@@ -454,10 +534,47 @@ main>div.hero>div{
     height: 4rem;
     padding-left: 5px;
   }
+  section#product-navbar{
+  width: 43vw !important;
   
 
 }
+section#product-navbar>div.hed{
+  position: absolute;
+  top: 140px;
+  left: -5px;
+  scale: 0.75 !important;
+  
+ 
+}
+section#product-navbar>div#hed1{
+  scale: 0.6 !important;
+  left: 5px;
+  /* position: absolute;
+  top:35px;
+  left: 30px; */
+}
+ section#product-navbar>ul>a{
+  font-size: 0.85rem;
+}
+section#product-navbar>ul{
+  position: absolute;
+  top: 200px;
+}
+section#product-navbar>ul{
+  gap: 27px !important;
+}
+
+}
 @media  (max-width:410px) {
+    section#product-navbar{
+  width: 47vw !important;
+  
+
+}
+section#product-navbar>ul{
+  gap: 25px !important;
+}
   .slideshow-container .text{
     top: 8vh !important;
   }
@@ -497,8 +614,7 @@ main>div.hero>div{
     font-size: 9px !important;
   }
   main>div.cards{
-  /* border: 2px solid blue; */
-  /* width: 50% !important; */
+
   display: grid !important;
   grid-template-columns: 1fr;
   /* overflow-x: auto; */

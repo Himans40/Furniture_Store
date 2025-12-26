@@ -48,6 +48,7 @@ sidenav.addEventListener('click', showmynav);
 
 function showmynav() {
   menubar.classList.toggle("active");
+  bar.classList.toggle("active");
 }
 const cross1 = document.querySelector('.close1')
 cross1.addEventListener('click', showmynav);
